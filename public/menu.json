@@ -1,0 +1,5 @@
+[
+    {"id":1, "title":"صفحه اصلی", "link": "/Home"},
+    {"id":2, "title":"محصولات", "link": "/Products"},
+    {"id":3, "title":"درباره ما", "link": "/AboutUs"}
+]
