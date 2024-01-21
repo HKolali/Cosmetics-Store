@@ -1,9 +1,42 @@
 .menu{
-    width: 95%;
+    width: 90%;
     height: 60px;
     background-color: white;
     border-radius: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.menu__logo{
+    border-radius: 50%;
+    padding: 0.8rem;
+    background-color: white;
+    border: 1px solid #f5bfcf;
+    transition: all 600ms ease-in;
+}
+
+.menu__logo:hover{
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.menu__parent-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.right-menu{
+    margin-right: 2rem;
+}
+
+.left-menu{
+    margin-left: 2rem;
+}
+
+.menu__icon{
+    margin-right: 2rem;
+    font-size: 1.5rem;
 }

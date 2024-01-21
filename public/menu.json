@@ -1,5 +1,15 @@
 [
-    {"id":1, "title":"صفحه اصلی", "link": "/Home"},
-    {"id":2, "title":"محصولات", "link": "/Products"},
-    {"id":3, "title":"درباره ما", "link": "/AboutUs"}
+    {"id":1, "title":"صفحه اصلی ", "link": "/Home", "direction": "right", "submenu":[]},
+    {"id":2, "title":"محصولات ", "link": "/Products", "direction": "right", "submenu":[
+        {"id":3, "title":"آرایش صورت ", "link": "/Products"},
+        {"id":4, "title":"آرایش چشم ", "link": "/Products"},
+        {"id":5, "title":"آرایش ابرو ", "link": "/Products"},
+        {"id":6, "title":"آرایش لب ", "link": "/Products"},
+        {"id":7, "title":"بهداشت و زیبایی ناخن ", "link": "/Products"},
+        {"id":8, "title":"ابزار آرایشی ", "link": "/Products"}
+    ]},
+    {"id":9, "title":"درباره ما", "link": "/AboutUs", "direction": "right", "submenu":[]},
+    {"id":10, "title":"تماس با ما", "link": "/ContactUs", "direction": "right", "submenu":[]},
+    {"id":11, "title":"جستجو محصولات ", "link": "/AboutUs", "direction": "left", "submenu":[]},
+    {"id":12, "title":"مشاوره ", "link": "/ContactUs", "direction": "left", "submenu":[]}
 ]

@@ -1,5 +1,80 @@
-.menu-item{
+@font-face {
+    font-family: Vazir;
+    src: url(./../../../../public/fonts/ttf/Vazir.ttf);
+}
+
+.menu-item {
     color: black;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Vazir;
+    margin-left: 3rem;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.menu-item::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+    background: #f5bfcf;
+    border-radius: 50%;
+}
+
+.menu-item-dropdown{
+    margin-right: -2.5rem;
+    margin-left: 3rem;
+    font-size: 0.7rem;
+}
+
+.submenu:hover .sub-menu-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu-list {
+    width: 12rem;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    border-radius: 1rem;
+    list-style-type: none;
+    right: 0;
+    padding: 1rem;
+    box-shadow: 0 1px 2px 1px #f5bfcf;
+    transition: all 200ms ease-in;
+}
+
+.sub-menu-list > li{
+    padding:0.5rem 1rem;
+    width: 80%;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.sub-menu-list-item {
+    color: black;
+    text-decoration: none;
+    font-family: Vazir;
+    font-size: 1rem;
+}
+
+.sub-menu-list > li:hover {
+    background-color: #f5bfcf;
+    border-radius: 1rem;
 }
