@@ -26,7 +26,7 @@ export default function Menu() {
         <CiUser className='menu__icon'/>
       </div>
       <div className="menu__parent-item">
-        <img className='menu__logo' src="image/logo/logo.jpg" alt="" width={80} />
+        <img className='menu__logo' src="image/logo/logo.jpg" alt="" width={70} />
       </div>
       <div className="menu__parent-item right-menu">
         {menu.map(menuItem => (

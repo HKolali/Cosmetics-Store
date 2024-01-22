@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Anjoman;
+    src: url(./../../../public/fonts/ttf/Anjoman-SuperHeavy.ttf);
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(./../../../public/fonts/ttf/Vazir.ttf);
+}
+
+.landing{
+    display: flex;
+    align-items: center;
+}
+
+.landing__image{
+    filter: drop-shadow(0 0 0.75rem rgb(117, 117, 117));
+    animation: bounce 5s infinite ease-in-out;
+    width: 45rem;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    50% {
+      transform: translateY(7px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+.landing__text{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#landing__text-title-header{
+    color: #ee7e5c;
+}
+
+.landing__text-title{
+    text-align: end;
+    line-height: 5rem;
+    font-family: Anjoman;
+}
+
+.landing__text-btn-product{
+    margin-left: 2rem;
+    text-decoration: none;
+    background-color: #212529;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem 0 1.5rem 0;
+    font-family: Vazir;
+    transition: all 200ms ease-in;
+}
+
+.landing__text-btn-product:hover{
+    background-color: #555;
+}
+
+.landing__text-btn-consultation{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-radius: 1.5rem 0 1.5rem 0;
+    font-family: Vazir;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.landing__text-btn-consultation:hover{
+    background-color: #555;
+    color: white;
+}
+
+.landing__text-btn-consultation-icon{
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+}

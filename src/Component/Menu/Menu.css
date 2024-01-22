@@ -1,19 +1,18 @@
 .menu{
     width: 90%;
-    height: 60px;
     background-color: white;
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 1px 700px 1px #ff9476;
 }
 
 .menu__logo{
     border-radius: 50%;
-    padding: 0.8rem;
     background-color: white;
-    border: 1px solid #f5bfcf;
     transition: all 600ms ease-in;
+    margin: 0.5rem -3rem 0.5rem 0;
 }
 
 .menu__logo:hover{
