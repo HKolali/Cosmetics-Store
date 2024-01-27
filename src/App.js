@@ -7,7 +7,10 @@ function App() {
   let routes = useRoutes(Routes)
 
   return (
-    <div>
+    <div >
+      <div class="bg-animation">
+        <div id="stars"></div>
+      </div>
       {routes}
     </div>
   );

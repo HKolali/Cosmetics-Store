@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Landing() {
     return (
-        <Container fluid>
+        <Container fluid className='landing-background'>
             <Row className='landing'>
                 <Col>
                     <Image className='landing__image' src="image/landing-2.png" />
