@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Vazir;
+    src: url(./../../../../public/fonts/ttf/Vazir-Medium.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-ExtraBold;
+    src: url(./../../../../public/fonts/ttf/Anjoman-ExtraBold.ttf);
+}
+
+.special-offer-item {
+    width: 170px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4ccbf;
+    border-radius: 1rem;
+    margin: 0 1rem;
+}
+
+.special-offer-item__image {
+    width: 60px;
+    height: 150px;
+}
+
+.special-offer-item__title {
+    font-family: Vazir;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.special-offer-item__price {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.special-offer-item__value {
+    font-family: Vazir;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.special-offer-item__unit {
+    font-family: Vazir;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.special-offer-item__icon {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    padding: 5px;
+    background-color: #f09576;
+    border-radius: 50%;
+}
+
+.special-offer-item__icon:hover {
+    cursor: pointer;
+    background-color: #f07a52;
+    color: aliceblue;
+}

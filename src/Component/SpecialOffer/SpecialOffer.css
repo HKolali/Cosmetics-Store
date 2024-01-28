@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Vazir;
+    src: url(./../../../public/fonts/ttf/Vazir-Medium.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-ExtraBold;
+    src: url(./../../../public/fonts/ttf/Anjoman-ExtraBold.ttf);
+}
+
+.special-offer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    background-color: #fff7f4;
+}
+
+.special-offer__title{
+    font-family: Anjoman-ExtraBold;
+    font-size: 1.4rem;
+}
+
+.special-offer__title > span {
+    color: #ee7e5c;
+}
+
+.special-offer__show-all{
+    font-size: 1rem;
+    font-family: Vazir;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.special-offer__show-all > #arrow-left{
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+    color: black;
+}
+
+.special-offer__items{
+    display: flex;
+    flex-direction: row;
+}

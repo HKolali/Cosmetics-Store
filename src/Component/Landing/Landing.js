@@ -1,9 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Col, Container, Row, Image } from 'react-bootstrap'
-import './Landing.css'
-import { SlArrowLeft } from "react-icons/sl";
 import { Link } from 'react-router-dom';
+import './Landing.css'
 
 export default function Landing() {
     return (
@@ -19,7 +18,6 @@ export default function Landing() {
                             <Link className='landing__text-btn-product'> محصولات </Link>
                             <Link className='landing__text-btn-consultation'>مشاوره 
                             </Link>
-                            {/* <SlArrowLeft className='landing__text-btn-consultation-icon'/> */}
                         </div>
                     </div>
                 </Col>
