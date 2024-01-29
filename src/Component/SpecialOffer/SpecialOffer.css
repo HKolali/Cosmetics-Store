@@ -4,25 +4,32 @@
 }
 
 @font-face {
-    font-family: Anjoman-ExtraBold;
-    src: url(./../../../public/fonts/ttf/Anjoman-ExtraBold.ttf);
+    font-family: Bardiya;
+    src: url(./../../../public/fonts/ttf/BBardiya.ttf);
 }
 
 .special-offer{
     width: 100%;
-    height: fit-content;
+    padding: 2rem 0 5rem 0;
+    background-color: white;
+    position: relative;
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
     z-index: 99;
-    margin-top: 2rem;
-    padding-top: 3rem;
-    background-color: #fff7f4;
+}
+
+.special-offer__divider{
+    margin: 0 auto;
+    width: 25rem;
+    margin-bottom: 2rem;
 }
 
 .special-offer__title{
-    font-family: Anjoman-ExtraBold;
-    font-size: 1.4rem;
+    font-family: Bardiya;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 .special-offer__title > span {
@@ -32,17 +39,72 @@
 .special-offer__show-all{
     font-size: 1rem;
     font-family: Vazir;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem 0 1.5rem 0;
+    border: 1px solid #ee7e5c;
+    color: #ee7e5c;
+    transition: all 200ms ease-in;
+    width: fit-content;
+    margin: 1.5rem auto 2rem;
+}
+
+.special-offer__show-all:hover{
+    cursor: pointer;
+    border-radius: 1.5rem 0 1.5rem 0;
+    border: 1px solid #ee7e5c;
+    color: white;
+    background-color: #ee7e5c;
+}
+
+.special-offer__show-all:hover #arrow-left{
+    color: white;
 }
 
 .special-offer__show-all > #arrow-left{
     margin-right: 0.5rem;
     font-size: 0.7rem;
-    color: black;
+    color: #ee7e5c;
+    transition: all 200ms ease-in;
 }
 
 .special-offer__items{
+   width: 75%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+.special-offer__items-swiper{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: flex;
+    justify-content: center;
+}
+
+.special-offer__items-change{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: #ee7e5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offer__items-change:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 2px 1px #bbb;
 }

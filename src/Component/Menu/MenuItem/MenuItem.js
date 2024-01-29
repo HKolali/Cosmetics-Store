@@ -6,7 +6,7 @@ import { SlArrowDown } from "react-icons/sl";
 export default function MenuItem(props) {
 
   useEffect(() => {
-    {console.log("==>",props.submenu)}
+    
   })
   return (
     <>
@@ -14,7 +14,7 @@ export default function MenuItem(props) {
         (<>
           <Link className='menu-item submenu' to={props.link}>{props.title}
           <ul className='sub-menu-list'>
-            {props.submenu.map(item => (<li><Link className='sub-menu-list-item' to={item.link}>{item.title}</Link></li>))}
+            {props.submenu.map(item => (<li key={item.id}><Link className='sub-menu-list-item' to={item.link}>{item.title}</Link></li>))}
           </ul>
           </Link>
           <SlArrowDown className='menu-item-dropdown'/>

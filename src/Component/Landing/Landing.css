@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Anjoman;
-    src: url(./../../../public/fonts/ttf/Anjoman-SuperHeavy.ttf);
+    font-family: Bardiya;
+    src: url(./../../../public/fonts/ttf/BBardiya.ttf);
 }
 
 @font-face {
@@ -45,6 +45,8 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    position: relative;
+    z-index: 99;
 }
 
 #landing__text-title-header {
@@ -53,8 +55,11 @@
 
 .landing__text-title {
     text-align: end;
-    line-height: 5rem;
-    font-family: Anjoman;
+    line-height: 6rem;
+    font-family: Bardiya;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
 }
 
 .landing__text-btn-product {

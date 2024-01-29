@@ -1,17 +1,17 @@
-.full-wh {
+/* .full-wh {
     position: absolute;
     top: 0px;
     left: 0px;
     bottom: 0px;
     width: 100%;
-}
+} */
 
 .bg-animation {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 500px ;
 }
 
 #stars {
