@@ -3,6 +3,7 @@ import './Home.css'
 import Menu from './../Menu/Menu'
 import Landing from './../Landing/Landing'
 import SpecialOffer from './../SpecialOffer/SpecialOffer'
+import LastProduct from './../LastProduct/LastProduct'
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
         <Menu />
         <Landing />
         <SpecialOffer />
+        <LastProduct />
+        {/* <SpecialOffer /> */}
     </div>
   )
 }

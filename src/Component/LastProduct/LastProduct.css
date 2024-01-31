@@ -8,76 +8,72 @@
     src: url(./../../../public/fonts/ttf/BBardiya.ttf);
 }
 
-.special-offer{
-    width: 100%;
-    padding: 2rem 0 0 0;
-    background-color: white;
+.last-product{
+    width: 100%; 
+    background-color: rgb(73, 73, 73);
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 99;
+}
+
+.last-product__wave-start{
     margin-bottom: -2rem;
 }
 
-.special-offer__divider{
-    margin: 0 auto;
-    width: 25rem;
-    margin-bottom: 2rem;
-    display: none;
+.last-product__wave-end{
+    transform: rotate(180deg);
+    margin-top: -2rem;
 }
 
-.special-offer__title{
+.last-product__title{
     font-family: Bardiya;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
     margin-right: -1rem;
+    color: white;
+    margin-top: -3rem;
 }
 
-.special-offer__title > span {
+.last-product__title > span {
     color: #ee7e5c;
 }
 
-.special-offer__show-all{
+.last-product__show-all{
     font-size: 1rem;
     font-family: Vazir;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem 0 1.5rem 0;
-    border: 1px solid #ee7e5c;
-    color: #ee7e5c;
+    border: 1px solid white;
+    color: white;
     transition: all 200ms ease-in;
     width: fit-content;
     margin: 1.5rem auto 2rem;
 }
 
-.special-offer__show-all:hover{
+.last-product__show-all:hover{
     cursor: pointer;
     border-radius: 1.5rem 0 1.5rem 0;
-    border: 1px solid #ee7e5c;
-    color: white;
-    background-color: #ee7e5c;
+    background-color: rgb(95, 95, 95);
 }
 
-.special-offer__show-all:hover #arrow-left{
-    color: white;
-}
-
-.special-offer__show-all > #arrow-left{
+.last-product__show-all > #arrow-left{
     margin-right: 0.5rem;
     font-size: 0.7rem;
-    color: #ee7e5c;
+    color: white;
     transition: all 200ms ease-in;
 }
 
-.special-offer__items{
+.last-product__items{
    width: 75%;
    margin: 0 auto;
    display: flex;
    align-items: center;
 }
 
-.special-offer__items-swiper{
+.last-product__items-swiper{
     width: 100%;
     height: 290px;
     display: flex;
@@ -96,7 +92,7 @@
     justify-content: center;
 }
 
-.special-offer__items-change{
+.last-product__items-change{
     width: 2rem;
     height: 2rem;
     border: none;
@@ -108,7 +104,7 @@
     justify-content: center;
 }
 
-.special-offer__items-change:hover{
+.last-product__items-change:hover{
     cursor: pointer;
     box-shadow: 0 1px 2px 1px #bbb;
 }

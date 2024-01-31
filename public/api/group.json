@@ -1,0 +1,5 @@
+[
+    {"id":1, "title":"تازگی پوست", "description": "خوشبو کننده", "alt": "خوشبو کننده پوست", "image": "image/product/product-6.png", "position":"odd"},
+    {"id":2, "title":"شادابی پوست", "description": "ماسک و اسکراب", "alt": "شادابی پوست", "image": "image/product/product-7.png", "position":"even"},
+    {"id":3, "title":"آرایش صورت", "description": "زیبایی صورت", "alt": "زیبایی صورت", "image": "image/product/product-6.png", "position":"odd"}
+]

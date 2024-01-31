@@ -17,7 +17,14 @@
     flex-direction: column;
     background-color: #fce5dd;
     border-radius: 1rem;
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
+    transition: all 200ms ease-in;
+}
+
+.special-offer-item:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 1px 3px 1px #f09576;
 }
 
 .special-offer-item__image {
